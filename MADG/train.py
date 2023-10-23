@@ -130,7 +130,7 @@ if __name__ == '__main__':
     load_path = "Mention path"
 
     if args.dataset == 'Office-Home':
-        class_num = 65 #65 for OH, 7 for PACS, 5 for vlcs, 345 for domainnet, 10 for terraicognita
+        class_num = 65 
         width = 2048 
         srcweight = 2 # margin
         is_cen = False
